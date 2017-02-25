@@ -8,4 +8,3 @@ function toggleForm(e) {
 		registerForm.style.display = "none";
 		loginForm.style.display = "block";
 	}
-}
