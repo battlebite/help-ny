@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/help-ny.css">
-    <script type="text/javascript" src="js/login.js"></script>
-    <title>Login/Register</title>
-  </head>
+<?php include '_header.php' ?>
   <body>
+  <?php include 'topNav.php' ?>
     <div class="modal-dialog">
 
       <!-- Login -->

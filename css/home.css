@@ -106,7 +106,20 @@
 .unhidden {
   display: block;
 }
-/* NAVBAR */
+/* NAVBARS */
+/* Top Navigation*/
+#topNav li {
+  list-style: none;
+  margin-top: 10px;
+  margin-right: 50px;
+  /*float: right;*/
+  font-size: 2rem;
+}
+#topNav a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: white;
+}
+
 /* make sidebar nav vertical */
 @media (min-width: 768px) {
   .sidebar-nav .navbar .navbar-collapse {
