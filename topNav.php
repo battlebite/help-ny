@@ -1,3 +1,4 @@
+<?php include "_header.php" ?>
 <nav id="topNav" class="navbar bg-primary">
   <a class="navbar-brand" href="home.php">Help NY</a>
   <div class="collapse navbar-collapse">

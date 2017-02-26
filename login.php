@@ -32,7 +32,7 @@
 
     <!-- Register form -->
     <div class="modal-dialog">
-      
+
     </div>
 
   </body>
