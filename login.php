@@ -1,5 +1,6 @@
+<<<<<<< ang
 <?php include '_header.php' ?>
-  <body>
+ <body>
   <?php include 'topNav.php' ?>
     <div class="modal-dialog">
 
@@ -29,11 +30,3 @@
 
       <div class="login-help"></div>
 	  </div>
-
-    <!-- Register form -->
-    <div class="modal-dialog">
-
-    </div>
-
-  </body>
-</html>

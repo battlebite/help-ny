@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/master.css">
-    <title></title>
-  </head>
+<?php include "_header.php" ?>
   <body>
   <div class="container" class="container2">
   <div class="row">
@@ -29,5 +22,4 @@
     </div>
   </div>
   </div>
-  </body>
-</html>
+</body>
