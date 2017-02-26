@@ -1,5 +1,6 @@
 <?php include "_header.php" ?>
-<?php include 'topNav.php' ?>
+<body>
+	<?php include 'topNav.php' ?>
 	<div class="col-md-4 container">
 		<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime architecto unde earum, molestias cum quaerat quasi deserunt, hic recusandae id neque consectetur ullam aspernatur perspiciatis aliquid velit dignissimos laboriosam minus!</div>
 		<div>Inventore omnis amet ratione, voluptatibus eligendi perferendis? Blanditiis, nam, at. Consequuntur perferendis nesciunt architecto quibusdam quidem, ab quo quaerat dolorum ea provident et asperiores repellat qui eveniet corrupti, sunt nam?</div>
