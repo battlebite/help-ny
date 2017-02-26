@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <title></title>
-  </head>
+<?php include "_header.php" ?>
   <body>
-  <div class="container">
+  <div class="container" class="container2">
   <div class="row">
     <div class="col-sm-3">
       <div class="sidebar-nav">
@@ -29,5 +22,4 @@
     </div>
   </div>
   </div>
-  </body>
-</html>
+</body>

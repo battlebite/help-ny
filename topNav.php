@@ -20,7 +20,6 @@
     </ul>
   </div>
 </nav>
-
 <script>
   $('#navLogin').click(function() {
     // Make login show and shadow the screen
