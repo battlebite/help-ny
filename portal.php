@@ -1,10 +1,11 @@
 <?php include "_header.php" ?>
 <body>
-	<div id="sideNav" class="col-md-1">
+	<div id="sideNavContainer" class="bg-primary">
 		<?php include 'sideNav.php' ?>
 	</div>
-	<div id="portalMainContent" class="col-md-11">
+	<div id="portalMainContent" class="col-md-10">
 		<?php
+    include 'resources.php';
 			$current_page = isset($_GET['page']) ? $_GET['page'] : null;
 			switch ($current_page) {
 				case ('overview'):

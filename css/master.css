@@ -4,44 +4,15 @@
   list-style: none;
   margin-top: 10px;
   margin-right: 50px;
-  /*float: right;*/
   font-size: 2rem;
 }
 #topNav a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     color: white;
 }
-/* HOMEPAGE */
-#homepage
-{
-  background-image: url("homepagebg.jpg");
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#welcome {
-  font-weight: bold;
-  text-align: center;
-}
-.btn
-{
-  background-color: #637a9e;
-  position: absolute;
-  top: 200px;
-  border-style: none;
-  border-radius: 0;
-}
-.btn:hover {
-  background-color: #6f90c4;
-}
-a {
-  color: white;
-  text-decoration: none;
-}
-a:hover {
-  color: white;
-  text-decoration: none;
+#navLogin{
+  cursor: pointer;
+  cursor: hand;
 }
 /* Login page css */
 @import url(http://fonts.googleapis.com/css?family=Roboto);
@@ -60,6 +31,7 @@ a:hover {
   z-index: 1;
   text-align: center;
 }
+
 .login-container {
   position: fixed;
   display: none;
@@ -178,39 +150,55 @@ a:hover {
 .unhidden {
   display: block;
 }
-/* SIDE NAVIGATION*/
-@media (min-width: 768px) {
-  .sidebar-nav .navbar .navbar-collapse {
-    padding: 0;
-    max-height: none;
-  }
-  .sidebar-nav .navbar ul {
-    float: left;
-    display: block;
-  }
-  .sidebar-nav .navbar li {
-    float: none;
-    display: block;
-  }
-  .sidebar-nav .navbar li a {
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
+/* HOMEPAGE */
+#homepage
+{
+  background-image: url("homepagebg.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-#main_nav {
-    display: none;
-    background: #fff;
+/*Portal*/
+/*Side Nav*/
+#sideNavContainer {
+  position:fixed;
+  margin: 0;
+  width: 200px;
+  left: 0;
+  height: 100%;
+  font-size: 2rem;
 }
-/*.with_nav #main_nav {
-    display: block;
-}*/
-#navLogin{
-  cursor: pointer;
-  cursor: hand;
+#sideNavContainer ul li {
+  list-style: none;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 2px solid #337aa7;
 }
-#main_nav:target {
-    display: block;
+/*Portal Main Content*/
+#portalMainContent {
+  left: 200px;
 }
+/*Resource Page*/
+.resourceNav {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background: #777;
+}
+.resources li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 50px;
+}
+.resources a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: white;
+}
+#resourceContent {
+  margin-top: 30px;
+}
+/*Unknown Code???*/
 .access_aid {
     /* In addition to the existing declarations... */
     display: block;
